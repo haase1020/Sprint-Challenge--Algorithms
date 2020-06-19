@@ -11,6 +11,7 @@ a)  a = 0
       a = a + n * n
 ```
 
+while and for loops are runtime complexity of O(n).
 
 ```
 b)  sum = 0
@@ -21,6 +22,8 @@ b)  sum = 0
         sum += 1
 ```
 
+nested for loops (while is a type of for loop) have a runtime complexity of O(n^2)
+
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -28,6 +31,8 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
+
+runtime complexity of O(1) since it will take the same amount of time despite the input size
 
 ## Exercise II
 
