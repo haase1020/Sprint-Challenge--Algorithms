@@ -57,6 +57,7 @@ class SortingRobot:
         """
         self._time += 1
         # Swap the held item with the list item at the robot's position
+        # go over with Jay
         self._item, self._list[self._position] = self._list[self._position], self._item
 
     def compare_item(self):
@@ -99,7 +100,8 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-
+        # use selection sort as sorting method
+        # set the light ON to start loop
         self.set_light_on()
         while self.light_is_on():
             # light off so robot can move
